@@ -1,0 +1,26 @@
+{
+  "id": "maifriend-finder",
+  "name": "maifriend-finder",
+  "version": "1.0.0",
+  "author": "reiz",
+  "description": "用于寻找群里的中二或者舞萌吃",
+  "category": "utility",
+  "main": "index.js",
+  "dependencies": [],
+  "keywords": [],
+  "license": "MIT",
+  "engines": {
+    "kibot": ">=3.0.0",
+    "node": ">=18.0.0"
+  },
+  "permissions": [
+    "message.send",
+    "event.listen",
+    "storage.read",
+    "storage.write"
+  ],
+  "config": {
+    "enabled": false,
+    "debug": false
+  }
+}
